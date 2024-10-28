@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Category Application</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+    <div th:insert="~{admin/fragments/header :: header}"></div>
+    <div class="container" th:insert="${__thymeleaf_layout_content__}"></div>
+    <div th:insert="~{admin/fragments/footer :: footer}"></div>
+</body>
+</html>
